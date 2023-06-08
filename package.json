@@ -1,0 +1,10 @@
+{
+  "name": "Mask inspection system",
+  "version": "1.0.0",
+  "description": "基于python和angular框架检查人们是否戴口罩的系统",
+  "main": "index.js",
+  "author": "怠惰の于",
+  "dependencies": {
+    "@angular/material": "^15.2.3"
+  }
+}

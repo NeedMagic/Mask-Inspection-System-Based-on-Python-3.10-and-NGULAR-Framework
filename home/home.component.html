@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<div>
+  <h2>口罩检测系统</h2>
+  <form>
+    <input type="file" accept="image/*" (change)="onFileSelected($event)">
+    <button (click)="onUpload()">上传</button>
+  </form>
+  <img *ngIf="imageUrl" [src]="imageUrl" width="300">
+  <p *ngIf="result">{{ result }}</p>
+  <p *ngIf="error">{{ error }}</p>
+</div>
