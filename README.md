@@ -4,7 +4,8 @@
 
 - 操作系统：Windows 11
 - Python 版本：3.10.10
-- Angular 版本：你的 Angular 版本
+- Angular 版本：16.0.5
+
 
 ## 安装步骤
 
